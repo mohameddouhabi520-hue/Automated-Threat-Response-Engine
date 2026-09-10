@@ -1,0 +1,4 @@
+2026-09-10 12:00:00 - [SEC-OPS] - INFO - Starting log ingestion from sample_logs.json...
+2026-09-10 12:00:02 - [SEC-OPS] - ERROR - THREAT DETECTED: Multiple failed logins from 45.33.22.11!
+2026-09-10 12:00:02 - [SEC-OPS] - CRITICAL - ALERT SENT TO SOC TEAM: {"incident": "Brute-Force Attack Detected", "severity": "HIGH", "source_ip": "45.33.22.11"...}
+2026-09-10 12:00:02 - [SEC-OPS] - WARNING - ACTION TRIGGERED: Blocking IP 45.33.22.11 at Firewall level.
